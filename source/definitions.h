@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -22,11 +22,11 @@
 
 // Version info
 // xxyyzzt (major, minor, subversion)
-#define __RME_VERSION_MAJOR__      3
-#define __RME_VERSION_MINOR__      3
+#define __RME_VERSION_MAJOR__      1
+#define __RME_VERSION_MINOR__      0
 #define __RME_SUBVERSION__         0
 
-#define __LIVE_NET_VERSION__       5
+#define __LIVE_NET_VERSION__       1
 
 #define MAKE_VERSION_ID(major, minor, subversion) \
 	((major)      * 10000000 + \

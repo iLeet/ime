@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -801,7 +801,7 @@ bool IOMapOTMM::saveMap(Map& map, NodeFileWriteHandle& f, const FileName& identi
 
 		f.addNode(OTMM_MAP_DATA); {
 			f.addNode(OTMM_EDITOR); {
-				f.addString("Saved with Remere's Map Editor " + __RME_VERSION__);
+				f.addString("Saved with Restoria Map Editor " + __RME_VERSION__);
 			} f.endNode(); // OTMM_DESCRIPTION
 			f.addNode(OTMM_DESCRIPTION); {
 				f.addString(map.getMapDescription());

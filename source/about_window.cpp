@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -165,7 +165,7 @@ AboutWindow::AboutWindow(wxWindow* parent) :
 {
 	wxString about;
 
-	about << "This is an OpenTibia Map Editor created by Remere.\n";
+	about << "Restoria Map Editor created by iLeet.\n";
 	about << "Version " << __W_RME_VERSION__ << " for ";
 	about <<
 #ifdef __WINDOWS__
@@ -451,7 +451,7 @@ void TetrisPanel::AddScore(int lines_added)
 {
 	lines += lines_added;
 	score += lines_added*lines_added * 10;
-	wxString title = "Remere's Tetris : ";
+	wxString title = "iLeet's Tetris : ";
 	title << score << " points  ";
 	title << lines << " lines";
 	((wxTopLevelWindow*)GetParent())->SetTitle(title);
@@ -754,7 +754,7 @@ void SnakePanel::NewGame()
 
 void SnakePanel::UpdateTitle()
 {
-	wxString title = "Remere's Snake : ";
+	wxString title = "iLeet's Snake : ";
 	title << length << " segments";
 	((wxTopLevelWindow*)GetParent())->SetTitle(title);
 }

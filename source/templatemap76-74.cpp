@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //////////////////////////////////////////////////////////////////////
 // $URL: http://svn.rebarp.se/svn/RME/trunk/source/templatemap76-74.hpp $
-// $Id: templatemap76-74.hpp 264 2009-10-05 06:36:21Z remere $
+// $Id: templatemap76-74.hpp 264 2009-10-05 06:36:21Z iLeet $
 
 #include "main.h"
 

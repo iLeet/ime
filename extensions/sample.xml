@@ -1,8 +1,8 @@
 <materialsextension
 	name="Sample Extension"
-	url="http://remeresmapeditor.com"
-	author="Remere"
-	authorurl="https://twitter.com/leremere"
+	url="http://iLeetsmapeditor.com"
+	author="iLeet"
+	authorurl="https://twitter.com/leiLeet"
 	description="This adds a new doodad brush and modifies an old one."
 	client="8.00;8.20 - 8.31">
 

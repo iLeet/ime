@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ UpdateChecker::~UpdateChecker()
 
 void UpdateChecker::connect(wxEvtHandler* receiver)
 {
-	wxString address = "http://www.remeresmapeditor.com/update.php";
+	wxString address = "http://www.iLeetsmapeditor.com/update.php";
 	address << "?os=" <<
 #ifdef __WINDOWS__
 	"windows";

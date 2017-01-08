@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of Restoria Map Editor
 //////////////////////////////////////////////////////////////////////
 // $URL: https://rme.svn.sourceforge.net/svnroot/rme/trunk/source/common.h $
-// $Id: common.h 264 2009-10-05 06:36:21Z remere $
+// $Id: common.h 264 2009-10-05 06:36:21Z iLeet $
 
 #ifndef RME_JSON_H_
 #define RME_JSON_H_
